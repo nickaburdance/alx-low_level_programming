@@ -1,1 +1,1 @@
-varibles, if, else
+c,if,while
