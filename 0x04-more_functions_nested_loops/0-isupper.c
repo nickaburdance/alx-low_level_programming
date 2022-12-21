@@ -1,16 +1,17 @@
-nclude "main.c"
+#include "main.c"
 
 /**
- * _isupper - uppercase letters
- * @c: char to check
+ * _isupper - checks for uppercase character
+ * @c: character to be checked
  *
- * Return: 0 or 1
+ * Return: 1 if @c is 0
+ * Otherwise, we return 0
  */
-
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	int start = 65, end = 90;
+
+	if (c >= start && c <= end)
 		return (1);
-	else
-		return (0);
+	return (0);
 }
